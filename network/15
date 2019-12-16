@@ -1,0 +1,8 @@
+Open/edit up /etc/hosts.
+Change the IP number for cdn.intra.42.fr to 46.19.122.85.
+Example:
+10.51.1.10       cdn.42.fr
+46.19.122.85    cdn.intra.42.fr
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost

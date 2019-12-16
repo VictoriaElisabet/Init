@@ -1,0 +1,2 @@
+#comment 
+ifconfig en1 | grep "ether" | sed 's/.*ether //g'

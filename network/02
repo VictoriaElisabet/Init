@@ -1,0 +1,3 @@
+#comment 
+ifconfig en0 | grep "broadcast" | sed 's/.*broadcast //'
+ping -t 1 10.11.255.255 | awk '{print $4}' | grep "10\.11\." | sed 's/[:]//'
