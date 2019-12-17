@@ -1,0 +1,10 @@
+e.g chron, at or anacron.
+Example:
+Install at : apt-get install at.
+How to:
+vgrankul@debian:~$ at 15:07
+warning: commands will be executed using /bin/sh
+at> echo "test"
+at> <EOT>
+job 8 at Tue Dec 17 15:07:00 2019
+Command atq gives you the list of the jobs
