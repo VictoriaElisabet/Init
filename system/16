@@ -1,4 +1,4 @@
-e.g chron, at or anacron.
+e.g cron, at or anacron.
 Example:
 Install at : apt-get install at.
 How to:

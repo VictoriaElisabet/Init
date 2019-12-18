@@ -1,25 +1,2 @@
-ssh session:
-Start by connecting to the VM vith a ssh connection, need to be root/sudo user (ssh username@ip_number).
-Use the command sudo adduser <username>
-Fill in necessary information:
-
-Adding user `testuser' ...
-Adding new group `testuser' (1001) ...
-Adding new user `testuser' (1001) with group `testuser' ...
-The home directory `/home/testuser' already exists.  Not copying from `/etc/skel'.
-New password:
-Retype new password:
-passwd: password updated successfully
-Changing the user information for testuser
-Enter the new value, or press ENTER for the default
-	Full Name []: Testuser
-	Room Number []: 1
-	Work Phone []: 111
-	Home Phone []: 111
-	Other []:
-Is the information correct? [Y/n] Y
-
-graphic session:
-Search for settings -> details -> Users
-Choose Add User
-Add necessary information.
+ssh username@ip_number
+su - username
