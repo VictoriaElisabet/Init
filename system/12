@@ -1,2 +1,2 @@
 #comment
-du -sh /var/*/
+sudo du -sh /var/*/
