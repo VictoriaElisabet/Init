@@ -1,0 +1,2 @@
+#comment
+sudo getent passwd | grep "home"

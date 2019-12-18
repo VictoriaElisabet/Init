@@ -1,2 +1,2 @@
 #comment
-pkill tail-f
+sudo pkill tail-f

@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ "$#" != 1 ];
+then echo "usage ./02 username"
+exit
+fi
+user_exist=$(getent passwd $1)
+if [ -z "$user_exist" ];
+then echo "not an active user"
+exit
+fi
+if [ "$user_exist" ];
+then sudo deluser $1
+fi

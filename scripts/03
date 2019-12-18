@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ "$#" != 1 ];
+then echo "usage ./03 username"
+exit
+fi
+user_exist=$(getent passwd $1)
+if [ "$user_exist" ];
+then echo "user already exist"
+exit
+fi
+if [ -z "$user_exist" ];
+then sudo adduser $1
+fi

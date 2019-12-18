@@ -1,2 +1,2 @@
 #comment
-hostname name
+sudo hostname <name>
